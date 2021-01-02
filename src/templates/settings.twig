@@ -1,0 +1,57 @@
+<div class="amoai-hiding_field_settings">
+    <div class="amoai-rule_entity_switch">
+        {{ self.render(
+            {ref: '/tmpl/controls/button.twig'},
+            {
+                class_name: 'amoai-buisness_entity_btn',
+                id: 'leadRuleEditButton',
+                text: 'Сделка'
+            }
+        )}}
+        {{ self.render(
+            {ref: '/tmpl/controls/button.twig'},
+            {
+                class_name: 'amoai-buisness_entity_btn',
+                id: 'contactRuleEditButton',
+                text: 'Контакт'
+            }
+        )}}
+        {{ self.render(
+            {ref: '/tmpl/controls/button.twig'},
+            {
+                class_name: 'amoai-buisness_entity_btn',
+                id: 'companyRuleEditButton',
+                text: 'Компания'
+            }
+        )}}
+        {{ self.render(
+            {ref: '/tmpl/controls/button.twig'},
+            {
+                class_name: 'amoai-buisness_entity_btn',
+                id: 'customerRuleEditButton',
+                text: 'Покупатель'
+            }
+        )}}
+    </div>
+
+    <div class="amoai-buisnes_entity_rule_settings"></div>
+
+    <div class="amoai-rule_controls">
+        {{ self.render({ ref: '/tmpl/controls/button.twig' }, {
+            text: 'Добавить правило',
+            blue: false,
+            id: 'saveNewRuleButton',
+            class_name: 'amoai-rule_add_btn'
+        }) }}
+
+        {{ self.render({ ref: '/tmpl/controls/button.twig' }, {
+            text: 'Сохранить настройки',
+            blue: true,
+            id: 'saveSettingsButton',
+            class_name: 'amoai-save_rules_btn'
+        }) }}
+    </div>
+
+    <div class="amoai-hiding_field_rules"></div>
+
+</div>

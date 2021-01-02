@@ -1,0 +1,55 @@
+<h2 class="modal-body__caption head_2">Для оплаты виджета оставьте заявку,<br> и наш менеджер свяжется с вами.</h2>
+
+<form>
+	{{ self.render(
+		{ref: '/tmpl/controls/input.twig'},
+		{
+			type: 'text',
+			name: 'name',
+			value: name,
+			placeholder: 'Имя'
+		}
+	) }}
+
+	{{ self.render(
+		{ref: '/tmpl/controls/input.twig'},
+		{
+			class_name: 'required',
+			type: 'text',
+			name: 'phone',
+			value: phone,
+			placeholder: 'Телефон'
+		}
+	) }}
+
+	{{ self.render(
+		{ref: '/tmpl/controls/input.twig'},
+		{
+			class_name: 'required',
+			type: 'text',
+			name: 'email',
+			value: email,
+			placeholder: 'Почта'
+		}
+	) }}
+
+	{{ self.render(
+		{ref: '/tmpl/controls/textarea.twig'},
+		{
+			name: 'comment',
+			value: '',
+			placeholder: 'Комментарий'
+		}
+	) }}
+</form>
+
+<div class="modal-body__actions">
+	{{ self.render(
+		{ref: '/tmpl/controls/button.twig'},
+        {
+        	id: btn_id,
+        	class_name: 'button-input_blue',
+        	text: btn_text
+    	}
+    )}}
+</div>

@@ -1,0 +1,7 @@
+*.log
+*.txt
+*.zip
+*.DS_Store
+.DS_Store
+.idea
+*test*.*

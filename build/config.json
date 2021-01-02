@@ -1,0 +1,6 @@
+{
+  "base_url": "https://amoai.ru/ws/",
+  "widget_code": "w_code",
+  "installer_path": "./artifacts",
+  "widget_path": "./src"
+}

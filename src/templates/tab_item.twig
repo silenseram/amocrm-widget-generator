@@ -1,0 +1,4 @@
+{% for tab in tabs %}
+    <input type="radio" name="type_integration_modal" id="{{ tab.id }}" class="hidden tabs__input">
+    <label class="tabs__item view-integration-modal__tab-key" for="{{ tab.id }}">{{ tab.text }}</label>
+{% endfor %}

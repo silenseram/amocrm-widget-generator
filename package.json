@@ -1,0 +1,10 @@
+{
+  "name": "amo-widget",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build/index.js"
+  },
+  "dependencies": {
+    "archiver": "^5.1.0"
+  }
+}

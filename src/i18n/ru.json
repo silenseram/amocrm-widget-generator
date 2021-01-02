@@ -1,0 +1,11 @@
+{
+    "widget": {
+        "name": "Название вижэета",
+        "short_description": "Краткое описание виджета",
+        "description": " "
+    },
+    "settings": {
+        "phone": "Телефон",
+        "rules": "Правила"
+    }
+}
