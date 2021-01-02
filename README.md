@@ -18,7 +18,6 @@ $ npm install
 ```sh
 $ npm run build
 ```
-Архив будет находиться в папке artifacts
 
 ### Конфигурация
 Конфигурация находится в файле `build/config.json`
